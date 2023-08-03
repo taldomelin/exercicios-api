@@ -23,7 +23,21 @@ git clone https://github.com/taldomelin/exercicios-api.git
 ```
 cd exercicios-api
 ```
+3. Inicializando o Repositorio
+```
+composer update
+```
+4. Copiando o .env do exemplo
+```
+copy .env.example .env
+```
+5. Acessar o Visual Studio Code
+```
+code .
+```
 
+## Insomnia
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Exerc%C3%ADcios%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Ftaldomelin%2Fexercicios-api%2Fmain%2FInsomnia.json)
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
